@@ -26,7 +26,7 @@ public class Date {
    * @return The day of the month (1-31).
    */
   public int getDay() {
-    return day;
+    return day
   }
 
   /**
@@ -35,7 +35,7 @@ public class Date {
    * @return The month of the year (1-12).
    */
   public int getMonth() {
-    return month;
+    return month
   }
 
   /**
@@ -44,7 +44,7 @@ public class Date {
    * @return The year (within the valid range of 1900 to 2050).
    */
   public int getYear() {
-    return year;
+    return year
   }
 
   /**
@@ -56,9 +56,9 @@ public class Date {
    *     to pass).
    */
   public Date(int day, int month, int year) {
-    this.day = day;
-    this.month = month;
-    this.year = year;
+    this.day = day
+    this.month = month
+    this.year = year
   }
 
   /**
@@ -73,13 +73,13 @@ public class Date {
    */
   public boolean validate() {
     SimpleDateFormat dateFormat = new SimpleDateFormat("dd/MM/yyyy");
-    dateFormat.setLenient(false);
+    dateFormat.setLenient(false)
 
-    String dateString = String.format("%d/%d/%d", day, month, year);
+    String dateString = String.format("%d/%d/%d", day, month, year)
 
     try {
-      dateFormat.parse(dateString);
-      return (year >= 1900) && (year <= 2050);
+      dateFormat.parse(dateString)
+      return (year >= 1900) && (year <= 2050)
     } catch (ParseException e) {
       return false;
     }
