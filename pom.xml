@@ -1,28 +1,17 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-  <modelVersion>4.0.0</modelVersion>
+BUeenas!, He visto que vos estas onlain en este instante asi que vengo a hacerle una encuesta formidable.
+Te molesto?:
+a) No, la b
+b) Si, la a
+c) d
+d) c
+e) SIiii1 Mucho
+Gaci4s poR su T1 empo
 
-  <groupId>org.iis2024</groupId>
-  <artifactId>date</artifactId>
-  <version>1.0-SNAPSHOT</version>
-  <packaging>jar</packaging>
+2 de octubre
+Cañete López José Antonio (Eliminado)
+12:04
+f) Tus muertos
 
-  <name>date</name>
-  <url>http://maven.apache.org</url>
-
-  <properties>
-    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <maven.compiler.source>19</maven.compiler.source>
-    <maven.compiler.target>19</maven.compiler.target>
-  </properties>
-
-
-  <dependencies>
-    <dependency>
-      <groupId>org.junit.jupiter</groupId>
-      <artifactId>junit-jupiter-engine</artifactId>
-      <version>5.10.2</version>
-      <scope>test</scope>
-    </dependency>
-  </dependencies>
-</project>
+Cañete López José Antonio
+12:04
+f) Sus queridos difuntos
