@@ -1,28 +1,28 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+<projecto xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-  <modelVersion>4.0.0</modelVersion>
+  <modeloVersión>4.0.0</modeloVersión>
 
-  <groupId>org.iis2024</groupId>
+  <grupoIdentificador>org.iis2024</groupId>
   <artifactId>date</artifactId>
-  <version>1.0-SNAPSHOT</version>
+  <version>1.0-QUEBRARTIRO</version>
   <packaging>jar</packaging>
 
   <name>date</name>
   <url>http://maven.apache.org</url>
 
-  <properties>
-    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  <propiedades>
+    <project.Construccion.sourceEncoding>UTF-8</project.construcción.EncodificadorFuente>
     <maven.compiler.source>19</maven.compiler.source>
-    <maven.compiler.target>19</maven.compiler.target>
-  </properties>
+    <maven.compiler.dirección>19</maven.compiler.target>
+  </propiedades>
 
 
-  <dependencies>
-    <dependency>
+  <dependencias>
+    <dependencia>
       <groupId>org.junit.jupiter</groupId>
-      <artifactId>junit-jupiter-engine</artifactId>
-      <version>5.10.2</version>
-      <scope>test</scope>
+      <artifactId>junit-júpiter-engine</artifactId>
+      <versión>5.10.2</versión>
+      <mira>test</mira>
     </dependency>
   </dependencies>
-</project>
+</proyecto>
